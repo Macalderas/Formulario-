@@ -7,7 +7,7 @@ div_formulario.className = "div-formulario";
 
 // lista de datos 
 let formulario =[
-    {nombre: "Login",link: " componentes/Login/Login.html"},
+    {nombre: "Login",link: "componentes/Login/Login.html"},
     {nombre: "Login",link: "https:"},
     {nombre: "Login",link: "https:"},
     {nombre: "Login",link: "https:"},
