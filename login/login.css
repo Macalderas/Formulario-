@@ -1,0 +1,121 @@
+.box-login {
+  width: 100%;
+  max-width: 1150px;
+  height: 80rem;
+  margin: auto;
+  margin: 5%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 56rem auto;
+}
+.box-login .formulario {
+  height: 100%;
+  padding: 10rem 15rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+.box-login .logo {
+  grid-column: 1/9;
+  grid-row: 1/4;
+  font-size: 2rem;
+  text-align: center;
+}
+.box-login h2 {
+  grid-column: 1/9;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  grid-row: 1/2;
+  margin-top: 8px;
+  text-align: center;
+  margin-top: 50px;
+}
+.box-login .btn-facebook, .box-login .btn-xing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+.box-login .btn-facebook {
+  grid-column: 1/4;
+  background-color: rgba(30, 30, 242, 0.863);
+  grid-row: 2/3;
+}
+.box-login .btn-xing {
+  grid-row: 2/3;
+  grid-column: 5/8;
+  background-color: rgba(10, 9, 9, 0.922);
+}
+.box-login span {
+  grid-row: 2/3;
+  grid-column: 1/9;
+  text-align: center;
+  margin-top: 60px;
+}
+#login {
+  margin-top: 70px;
+  grid-column: 1/9;
+  grid-row: 2/3;
+}
+#login label {
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+#login input {
+  height: 4rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid blueviolet;
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+}
+#login .opciones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#login .opciones label {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+#login .opciones label input {
+  width: 2rem;
+  background: rgb(84,58,180);
+  background: radial-gradient(circle, rgba(84,58,180,1) 26%, rgba(180,42,218,1) 47%, rgba(252,176,69,1) 86%);
+}
+#login .botones {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+}
+#login .botones button {
+  flex: 1;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+#login .botones .login-btn {
+  background: linear-gradient(90deg, rgba(84,58,180,1) 0%, rgba(180,42,218,1) 50%, rgba(252,176,69,1) 100%);
+}
+#login .botones .signup-btn {
+  background: grey;
+}
+.box-login p {
+  grid-column: 1/9;
+  text-align: center;
+  font-size: 1rem;
+}
+.box-login p a {
+  color: blue;
+  text-decoration: none;
+}
