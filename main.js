@@ -13,8 +13,6 @@ let formulario =[
     {nombre: "formulario",link: "formulario3/formulario3/formulario3.html"},
     {nombre: "formulario",link: "formulario4/formulario4/formulario4.html"},
     {nombre: "formulario",link: "formulario5/formulario5/formulario5.html"},
-
-    
     ] ;
 
 
