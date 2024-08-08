@@ -9,7 +9,7 @@ div_formulario.className = "div-formulario";
 let formulario =[
     {nombre: "Login",     link: "login/Login.html"},
     {nombre: "formulario",link: "componentes/fomularioDeContacto/formulario.html"},
-    {nombre: "Login",link: "login/Login.html"},
+    {nombre: "formulario de busqueda",link: "componentes/formularioDeBusqueda/formulario2.html"},
     {nombre: "formulario",link: "formulario/formulario/formulario.html"},
     {nombre: "formulario",link: "formulario2/formulario2/formulario2.html"},
     {nombre: "formulario",link: "formulario3/formulario3/formulario3.html"},
