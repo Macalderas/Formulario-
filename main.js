@@ -8,10 +8,12 @@ div_formulario.className = "div-formulario";
 // lista de datos 
 let formulario =[
     {nombre: "Login",     link: "login/Login.html"},
-    {nombre: "Login",link: "login/Login.html"},
-    {nombre: "formulario",link: "formulario/formulario/formulario.html"},
-    {nombre: "formulario",link: "formulario2/formulario2/formulario2.html"},
-    {nombre: "formulario",link: "formulario3/formulario3/formulario3.html"},
+    {nombre: "formulario de Contacto ",link: "componentes/fomularioDeContacto/formulario%20contacto.html"},
+    {nombre: "formulario de Busqueda",link: "componentes/formularioDeBusqueda/formulario%20busquedad.html"},
+    {nombre: "formulario de registro ",link: "formulario2/formulario2/formulario2.html"},
+    {nombre: "formulario de compras",link: "formulario3/formulario3/formulario3.html"},
+    {nombre: "formulario de reseñas",link: "formulario3/formulario3/formulario3.html"},
+
     ] ;
 
 
